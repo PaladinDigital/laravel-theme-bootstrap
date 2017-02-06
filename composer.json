@@ -1,4 +1,7 @@
 {
   "name": "paladindigital/laravel-theme-bootstrap",
-  "type": "laravel-community-theme"
+  "type": "laravel-community-theme",
+  "require": {
+    "paladindigital/laravel-theme-installer": "*"
+  }
 }

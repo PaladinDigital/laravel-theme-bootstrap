@@ -2,6 +2,7 @@
   "name": "paladindigital/laravel-theme-bootstrap",
   "type": "laravel-community-theme",
   "require": {
-    "paladindigital/laravel-theme-installer": "dev-master"
+    "paladindigital/laravel-theme-installer": "dev-master",
+    "paladindigital/laravel-theme-loader": "dev-master"
   }
 }

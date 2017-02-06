@@ -6,7 +6,8 @@ This is a base theme which can be used as-is or extended by other themes.
 
 Yields:
  - head
- - navigation
  - styles
+ - navigation
+ - content
  - footer
- - scripts (placed in the footer)
+ - scripts (just before &lt;/body&gt;)

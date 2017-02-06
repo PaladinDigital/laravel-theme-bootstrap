@@ -6,15 +6,13 @@
 @yield('styles')
 </head>
 <body>
-@include('themes::laravel-bootstrap.bootstrap._nav')
+@include('themes::paladindigital.laravel-bootstrap._nav')
 @yield('content')
 <aside>
 @yield('sidebar')
 @yield('widgets')
 </aside>
-<footer>
-    @yield('footer')
-</footer>
+@include('themes::paladindigital.laravel-bootstrap._footer')
 @yield('scripts')
 </body>
 </html>

@@ -6,10 +6,7 @@
 @yield('styles')
 </head>
 <body>
-<nav>
-@yield('navigation')
-@yield('secondary_navigation')
-</nav>
+@include('themes::laravel-bootstrap.bootstrap._nav')
 @yield('content')
 <aside>
 @yield('sidebar')

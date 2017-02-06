@@ -2,12 +2,11 @@
 
 This is a base theme which can be used as-is or extended by other themes.
 
-## Sections
+## Installation
 
-Yields:
- - head
- - styles
- - navigation
- - content
- - footer
- - scripts (just before &lt;/body&gt;)
+Add the require in your composer.json file:
+
+    "require": {
+      ...
+      "paladindigital/laravel-theme-bootstrap": "*"
+    }

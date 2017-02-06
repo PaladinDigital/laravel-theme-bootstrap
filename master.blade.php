@@ -2,6 +2,8 @@
 <html>
 <head>
 @yield('head')
+@yield('meta')
+@yield('styles')
 </head>
 <body>
 <nav>

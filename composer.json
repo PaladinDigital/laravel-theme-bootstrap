@@ -1,5 +1,5 @@
 {
-  "name": "paladindigital/laravel-theme-bootstrap",
+  "name": "paladindigital/bootstrap",
   "type": "laravel-community-theme",
   "require": {
     "paladindigital/laravel-theme-installer": "dev-master",

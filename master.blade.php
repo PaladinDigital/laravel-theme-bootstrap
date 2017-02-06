@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+@yield('head')
+</head>
+<body>
+<nav>
+@yield('navigation')
+@yield('secondary_navigation')
+</nav>
+@yield('content')
+<aside>
+@yield('sidebar')
+@yield('widgets')
+</aside>
+<footer>
+    @yield('footer')
+</footer>
+@yield('scripts')
+</body>
+</html>

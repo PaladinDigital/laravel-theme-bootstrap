@@ -10,3 +10,10 @@ Add the require in your composer.json file:
       ...
       "paladindigital/laravel-theme-bootstrap": "*"
     }
+
+If you dont already have the service provider registered in your config/app.php then add it also
+
+    'providers' => [
+        ...
+        PaladinDigital\LaravelThemes\ServiceProvider::class,
+    ]

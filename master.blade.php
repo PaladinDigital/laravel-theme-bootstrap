@@ -1,6 +1,7 @@
 <?php
 /*
  * Theme Name: Bootstrap
+ * Template: Master
  * Author: Paladin Digital
  */
 $theme = 'themes::paladindigital.laravel-bootstrap';
@@ -16,11 +17,13 @@ $theme = 'themes::paladindigital.laravel-bootstrap';
 </head>
 <body>
 @include($theme . '._nav')
-@yield('content')
-<aside>
-@yield('sidebar')
-@yield('widgets')
-</aside>
+<div class="container-fluid">
+    @yield('content')
+    <aside>
+        @yield('sidebar')
+        @yield('widgets')
+    </aside>
+</div>
 @include($theme . '._footer')
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

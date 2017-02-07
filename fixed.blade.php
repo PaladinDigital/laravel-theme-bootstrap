@@ -1,6 +1,7 @@
 <?php
 /*
  * Theme Name: Bootstrap
+ * Template: Fixed
  * Author: Paladin Digital
  */
 $theme = 'themes::paladindigital.laravel-bootstrap';

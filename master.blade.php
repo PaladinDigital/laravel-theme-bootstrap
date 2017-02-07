@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+/*
+ * Theme Name: Bootstrap
+ * Author: Paladin Digital
+ */
+$theme = 'themes::paladindigital.laravel-bootstrap';
+
+?><!DOCTYPE html>
 <html>
 <head>
     <!-- Latest compiled and minified CSS -->
@@ -8,13 +15,13 @@
 @yield('styles')
 </head>
 <body>
-@include('themes::paladindigital.laravel-bootstrap._nav')
+@include($theme . '._nav')
 @yield('content')
 <aside>
 @yield('sidebar')
 @yield('widgets')
 </aside>
-@include('themes::paladindigital.laravel-bootstrap._footer')
+@include($theme . '._footer')
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 @yield('scripts')

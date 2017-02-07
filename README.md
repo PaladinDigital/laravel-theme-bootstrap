@@ -17,3 +17,19 @@ If you dont already have the service provider registered in your config/app.php 
         ...
         PaladinDigital\LaravelThemes\ServiceProvider::class,
     ]
+    
+## Theme Usage
+
+The master layout provides most commonly used yields (listed below), and uses the container-fluid css class for content wrapping.
+
+### Yields
+ - head
+ - meta
+ - styles
+ - navigation
+ - secondary_navigation
+ - content
+ - sidebar
+ - widgets
+ - footer
+ - scripts

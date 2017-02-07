@@ -1,8 +1,16 @@
 {
   "name": "paladindigital/laravel-bootstrap",
+  "description": "A laravel theme with Bootstrap 3.3.7 loaded from CDN.",
+  "license": "MIT",
+  "keywords": [
+    "laravel", "bootstrap", "laravel-community-theme"
+  ],
   "type": "laravel-community-theme",
   "require": {
     "paladindigital/laravel-theme-installer": "dev-master",
     "paladindigital/laravel-theme-loader": "dev-master"
+  },
+  "suggest": {
+    "taskforcedev/laravel-support": "Allows you to set a site layout which could be the master template of a chosen theme."
   }
 }

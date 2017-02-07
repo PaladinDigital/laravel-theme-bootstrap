@@ -8,7 +8,7 @@ Add the require in your composer.json file:
 
     "require": {
       ...
-      "paladindigital/laravel-theme-bootstrap": "*"
+      "paladindigital/laravel-bootstrap": "*"
     }
 
 If you dont already have the service provider registered in your config/app.php then add it also

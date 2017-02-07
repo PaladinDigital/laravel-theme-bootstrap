@@ -36,3 +36,13 @@ If you dont already have the service provider registered in your config/app.php 
  - widgets
  - footer
  - scripts
+
+### Page Meta
+
+The following meta tags will be populated if provided by controllers (the easiest way to do this is to create a method on your base controller to populate a shared data object then pass this along with any extra page specific data to your views).
+
+ - $charset : String (optional), default: UTF-8
+ - $viewport : String (optional), default: width=device-width, initial-scale=1.0 
+ - $keywords : Array of keywords or a comma-seperated string.
+ - $description : String
+ - $title : Page title

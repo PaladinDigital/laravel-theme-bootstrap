@@ -6,6 +6,11 @@
  */
 $theme = 'themes::paladindigital.laravel-bootstrap';
 
+// Allow nav type to be overridden from controllers.
+if (!isset($nav)) {
+    $nav = 'navbar';
+}
+
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +21,7 @@ $theme = 'themes::paladindigital.laravel-bootstrap';
 @yield('styles')
 </head>
 <body>
-@include($theme . '._nav')
+@include($theme . '._' . $nav)
 <div class="container-fluid">
     @yield('content')
     <aside>

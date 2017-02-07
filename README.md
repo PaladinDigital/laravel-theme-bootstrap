@@ -52,3 +52,31 @@ The following meta tags will be populated if provided by controllers (the easies
  - $keywords : Array of keywords or a comma-seperated string.
  - $description : String
  - $title : Page title
+
+### Navbar
+
+The theme includes a navbar by default in the navigation section, (this can be overridden if desired).
+
+To add menu items to the navbar simple create an array called $menu in the format as per the example below
+
+    $menu = [
+        
+        // Simple Links
+        [
+            'title' => 'Home',
+            'url' => route('home')
+        ],
+        
+        // Dropdowns
+        [
+            'title' => 'Pages',
+            'links' => [
+                'title' => 'SubPage',
+                'url' => route('subpage.route')
+            ]
+        ]
+    ];
+
+The navbar also yields both 'navigation' and 'secondary_navigation' sections so you can also add custom html if desired.
+
+The default navbar also uses the navbar-brand class to display your brand, so in order for this to work you should make sure your data also includes the $brand varible (if not set the page will retrieve the value from the app.name config variable).

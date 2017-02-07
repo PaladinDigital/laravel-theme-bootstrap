@@ -1,5 +1,7 @@
 # Laravel Theme: Bootstrap
 
+Bootstrap Version: 3.3.7
+
 This is a base theme which can be used as-is or extended by other themes.
 
 ## Installation

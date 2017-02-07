@@ -43,7 +43,9 @@ This saves you having to set the longform view name in all page templates.  Alte
  - sidebar
  - widgets
  - footer
- - scripts
+
+### Stacks
+- scripts
 
 ### Page Meta
 

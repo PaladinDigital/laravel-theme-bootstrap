@@ -8,7 +8,7 @@ $theme = 'themes::paladindigital.laravel-bootstrap';
 
 // Allow nav type to be overridden from controllers.
 if (!isset($nav)) {
-    $nav = 'navbar';
+    $nav = $theme . '._navbar';
 }
 
 ?><!DOCTYPE html>
@@ -21,7 +21,7 @@ if (!isset($nav)) {
 @yield('styles')
 </head>
 <body>
-@include($theme . '._' . $nav)
+@include($nav)
 <div class="container-fluid">
     @yield('content')
     <aside>
@@ -32,6 +32,6 @@ if (!isset($nav)) {
 @include($theme . '._footer')
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-@yield('scripts')
+@stack('scripts')
 </body>
 </html>

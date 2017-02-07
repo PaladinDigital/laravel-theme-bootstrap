@@ -11,7 +11,7 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav nav">
                 @if (isset($menu))
                     @foreach ($menu as $link)
                         @if (array_key_exists('links', $link))

@@ -26,7 +26,7 @@ if (!isset($nav)) {
     @yield('content')
     <aside>
         @yield('sidebar')
-        @yield('widgets')
+        @stack('widgets')
     </aside>
 </div>
 @include($theme . '._footer')

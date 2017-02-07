@@ -20,7 +20,10 @@ If you dont already have the service provider registered in your config/app.php 
     
 ## Theme Usage
 
-The master layout provides most commonly used yields (listed below), and uses the container-fluid css class for content wrapping.
+### Layouts
+
+ - master: The master layout uses container-fluid css class for full-width responsive themes.
+ - fixed: This layout uses the container css class which constrains page contents to a fixed width.
 
 ### Yields
  - head
